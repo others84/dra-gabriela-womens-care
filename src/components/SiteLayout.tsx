@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { Menu, MessageCircle, Phone, MapPin, X } from "lucide-react";
 import { SITE } from "@/lib/site";
+import logo from "@/assets/logo-dra-gabriela-puig.svg.asset.json";
 
 const NAV = [
   { to: "/", label: "Inicio" },
