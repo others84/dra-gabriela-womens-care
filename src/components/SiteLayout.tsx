@@ -17,8 +17,12 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
   return (
     <header className={overlay ? "absolute inset-x-0 top-0 z-30" : "relative z-30 bg-hero"}>
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
-        <Link to="/" className="font-display text-2xl italic text-hero-foreground">
-          Dra. Gabriela Puig<span className="text-accent">+</span>
+        <Link to="/" className="shrink-0" aria-label={`${SITE.doctor}, inicio`}>
+          <img
+            src={logo.url}
+            alt={`${SITE.doctor} — ${SITE.specialty}`}
+            className="size-12 rounded-full object-cover ring-2 ring-hero-foreground/25 md:size-16"
+          />
         </Link>
         <nav className="hidden gap-2 lg:flex" aria-label="Principal">
           {NAV.map((n) => (
