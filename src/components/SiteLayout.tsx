@@ -47,9 +47,9 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
 
 export function PageHero({ title, subtitle }: { title: string; subtitle?: string }) {
   return (
-    <section className="bg-hero pb-14 pt-6 text-center text-hero-foreground">
-      <SiteHeader />
-      <h1 className="mt-6 px-5 font-display text-4xl md:text-5xl">{title}</h1>
+    <section className="relative bg-hero pb-14 pt-28 text-center text-hero-foreground">
+      <SiteHeader overlay />
+      <h1 className="px-5 font-display text-4xl md:text-5xl">{title}</h1>
       {subtitle && <p className="mx-auto mt-3 max-w-2xl px-5 font-display text-lg opacity-90">{subtitle}</p>}
     </section>
   );
