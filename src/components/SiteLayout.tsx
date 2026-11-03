@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { Menu, MessageCircle, Phone, MapPin, X } from "lucide-react";
 import { SITE } from "@/lib/site";
-import logo from "@/assets/logo-dra-gabriela-puig.svg.asset.json";
+import logo from "@/assets/logo-dra-gabriela-puig.svg";
 
 const NAV = [
   { to: "/", label: "Inicio" },
@@ -19,7 +19,7 @@ export function SiteHeader({ overlay = false }: { overlay?: boolean }) {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5">
         <Link to="/" className="flex shrink-0 items-center gap-3" aria-label={`${SITE.doctor}, inicio`}>
           <img
-            src={logo.url}
+            src={logo}
             alt={`${SITE.doctor} — ${SITE.specialty}`}
             className="size-14 rounded-full object-cover ring-2 ring-hero-foreground/25 md:size-20"
           />

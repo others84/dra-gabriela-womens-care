@@ -1,10 +1,10 @@
-import partos from "@/assets/atencion_partos.avif.asset.json";
-import cesarea from "@/assets/ceasriea.avif.asset.json";
-import prenatal from "@/assets/controlparental.avif.asset.json";
-import histerectomia from "@/assets/hsiterectomia.avif.asset.json";
-import menopausia from "@/assets/menopausia.avif.asset.json";
-import papanicolau from "@/assets/papnicolau.avif.asset.json";
-import planificacion from "@/assets/planificacion.avif.asset.json";
+import partos from "@/assets/atencion_partos.avif";
+import cesarea from "@/assets/ceasriea.avif";
+import prenatal from "@/assets/controlparental.avif";
+import histerectomia from "@/assets/hsiterectomia.avif";
+import menopausia from "@/assets/menopausia.avif";
+import papanicolau from "@/assets/papnicolau.avif";
+import planificacion from "@/assets/planificacion.avif";
 
 export const SITE = {
   doctor: "Dra. Gabriela Puig Morales",
@@ -22,15 +22,15 @@ export const SITE = {
 export type Service = { id: string; title: string; desc: string; img?: string };
 
 export const SERVICES: Service[] = [
-  { id: "prenatal", title: "Embarazo y Control Prenatal", desc: "Seguimiento mes a mes para garantizar el desarrollo saludable de tu bebé y cuidar tu salud integral durante la gestación.", img: prenatal.url },
-  { id: "papanicolau", title: "Papanicolau", desc: "Estudio preventivo indispensable para la detección oportuna de alteraciones o lesiones en el cuello uterino.", img: papanicolau.url },
+  { id: "prenatal", title: "Embarazo y Control Prenatal", desc: "Seguimiento mes a mes para garantizar el desarrollo saludable de tu bebé y cuidar tu salud integral durante la gestación.", img: prenatal },
+  { id: "papanicolau", title: "Papanicolau", desc: "Estudio preventivo indispensable para la detección oportuna de alteraciones o lesiones en el cuello uterino.", img: papanicolau },
   { id: "colposcopia", title: "Colposcopía", desc: "Examen detallado mediante microscopio especializado para evaluar el cuello uterino, la vagina y la vulva en búsqueda de lesiones." },
-  { id: "menopausia", title: "Atención Integral de la Menopausia", desc: "Tratamiento y orientación médica para controlar bochornos, cambios hormonales y prevenir la osteoporosis en esta etapa.", img: menopausia.url },
-  { id: "partos", title: "Atención de Partos Humanizados", desc: "Acompañamiento médico profesional durante el trabajo de parto, priorizando la seguridad y la comodidad de la mamá y el recién nacido.", img: partos.url },
-  { id: "cesareas", title: "Cesáreas", desc: "Procedimientos quirúrgicos ejecutados con técnica avanzada, bajo las más estrictas normas de seguridad hospitalaria.", img: cesarea.url },
-  { id: "histerectomias", title: "Histerectomías", desc: "Cirugía ginecológica realizada con técnica avanzada y bajo estrictas normas de seguridad hospitalaria.", img: histerectomia.url },
+  { id: "menopausia", title: "Atención Integral de la Menopausia", desc: "Tratamiento y orientación médica para controlar bochornos, cambios hormonales y prevenir la osteoporosis en esta etapa.", img: menopausia },
+  { id: "partos", title: "Atención de Partos Humanizados", desc: "Acompañamiento médico profesional durante el trabajo de parto, priorizando la seguridad y la comodidad de la mamá y el recién nacido.", img: partos },
+  { id: "cesareas", title: "Cesáreas", desc: "Procedimientos quirúrgicos ejecutados con técnica avanzada, bajo las más estrictas normas de seguridad hospitalaria.", img: cesarea },
+  { id: "histerectomias", title: "Histerectomías", desc: "Cirugía ginecológica realizada con técnica avanzada y bajo estrictas normas de seguridad hospitalaria.", img: histerectomia },
   { id: "histeroscopias", title: "Histeroscopias", desc: "Técnica mínimamente invasiva que permite visualizar el interior de la cavidad uterina para diagnóstico y tratamiento preciso." },
-  { id: "planificacion", title: "Planificación Familiar", desc: "Asesoría médica personalizada en la elección y colocación de métodos anticonceptivos (DIU, implantes, métodos orales).", img: planificacion.url },
+  { id: "planificacion", title: "Planificación Familiar", desc: "Asesoría médica personalizada en la elección y colocación de métodos anticonceptivos (DIU, implantes, métodos orales).", img: planificacion },
 ];
 
 export const FAQS = [

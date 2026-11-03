@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Baby, HeartPulse, Microscope, Flower2, MessageCircle } from "lucide-react";
-import inicio from "@/assets/inicio.avif.asset.json";
-import sobremi from "@/assets/sobremi.avif.asset.json";
+import inicio from "@/assets/inicio.avif";
+import sobremi from "@/assets/sobremi.avif";
 import { SiteHeader, CtaButton } from "@/components/SiteLayout";
 import { SERVICES, SITE } from "@/lib/site";
 
@@ -28,7 +28,7 @@ function Index() {
   return (
     <>
       <section className="relative overflow-hidden text-hero-foreground">
-        <img src={inicio.url} alt="Consultorio de ginecología en Teziutlán" className="absolute inset-0 size-full object-cover" />
+        <img src={inicio} alt="Consultorio de ginecología en Teziutlán" className="absolute inset-0 size-full object-cover" />
         <div className="absolute inset-0 bg-hero-overlay" />
         <SiteHeader overlay />
         <div className="relative mx-auto max-w-6xl px-5 pb-14 pt-36 text-center">
@@ -56,7 +56,7 @@ function Index() {
           <p className="mt-4 text-muted-foreground">Atención oportuna para pacientes de Teziutlán y comunidades vecinas, en un ambiente cálido y de confianza.</p>
           <div className="mt-7"><Link to="/sobre-mi" className="inline-flex rounded-full bg-primary px-9 py-4 text-lg text-primary-foreground hover:bg-primary/85">Conóceme</Link></div>
         </div>
-        <img src={sobremi.url} alt={SITE.doctor} className="max-h-[460px] w-full rounded-lg object-cover" />
+        <img src={sobremi} alt={SITE.doctor} className="max-h-[460px] w-full rounded-lg object-cover" />
       </section>
 
       <section className="border-y-[14px] border-muted bg-background">
