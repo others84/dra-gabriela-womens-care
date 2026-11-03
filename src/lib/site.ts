@@ -1,10 +1,10 @@
-import partos from "@/assets/atencion_partos.avif.asset.json";
-import cesarea from "@/assets/ceasriea.avif.asset.json";
-import prenatal from "@/assets/controlparental.avif.asset.json";
-import histerectomia from "@/assets/hsiterectomia.avif.asset.json";
-import menopausia from "@/assets/menopausia.avif.asset.json";
-import papanicolau from "@/assets/papnicolau.avif.asset.json";
-import planificacion from "@/assets/planificacion.avif.asset.json";
+import partos from "@/assets/atencion_partos.avif";
+import cesarea from "@/assets/ceasriea.avif";
+import prenatal from "@/assets/controlparental.avif";
+import histerectomia from "@/assets/hsiterectomia.avif";
+import menopausia from "@/assets/menopausia.avif";
+import papanicolau from "@/assets/papnicolau.avif";
+import planificacion from "@/assets/planificacion.avif";
 
 export const SITE = {
   doctor: "Dra. Gabriela Puig Morales",

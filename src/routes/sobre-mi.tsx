@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import sobremi from "@/assets/sobremi.avif.asset.json";
+import sobremi from "@/assets/sobremi.avif";
 import { PageHero } from "@/components/SiteLayout";
 import { SITE } from "@/lib/site";
 
@@ -20,7 +20,7 @@ function SobreMi() {
     <>
       <PageHero title="Sobre mí" subtitle="Médica especialista dedicada al cuidado integral de la mujer" />
       <section className="mx-auto grid max-w-6xl items-start gap-10 px-5 py-14 md:grid-cols-2">
-        <img src={sobremi.url} alt={SITE.doctor} className="w-full rounded-lg object-cover shadow-lg" />
+        <img src={sobremi} alt={SITE.doctor} className="w-full rounded-lg object-cover shadow-lg" />
         <div>
           <h2 className="text-4xl">{SITE.doctor}</h2>
           <p className="mt-2 font-display text-lg text-primary">Obstetra y Ginecóloga</p>
