@@ -21,3 +21,26 @@ describe("Contact number", () => {
     expect(faq?.a).toContain(SITE.phoneDisplay);
   });
 });
+
+// The office moved: Miguel Hidalgo 410-3, Edificio CEMS, Centro, CP 73800.
+describe("Office address and map", () => {
+  it("shows the Miguel Hidalgo 410-3 address with building and zip", () => {
+    expect(SITE.address).toBe(
+      "Calle Miguel Hidalgo 410-3, Edificio CEMS, Col. Centro, Teziutlán, Puebla, CP 73800",
+    );
+    expect(SITE.addressNote).toBe(
+      "A un lado de Laboratorio Belab, entre JC Bonilla y Nigromante.",
+    );
+  });
+
+  it("embeds the office's own Google Maps place, not a street search", () => {
+    expect(SITE.mapSrc).toContain("cid=13209014199235619821");
+    expect(SITE.mapSrc).toContain("output=embed");
+  });
+
+  it("no longer mentions the old Privada 19 Sur address", () => {
+    const text = JSON.stringify({ ...SITE, FAQS });
+    expect(text).not.toContain("Privada 19 Sur");
+    expect(text).not.toContain("1915");
+  });
+});

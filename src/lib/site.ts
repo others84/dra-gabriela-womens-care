@@ -14,9 +14,10 @@ export const SITE = {
   phone: "2311381947",
   phoneDisplay: "231 138 1947",
   whatsapp: "https://wa.me/522311381947",
-  address: "Privada 19 Sur 1915, Centro, Teziutlán, Puebla",
+  address: "Calle Miguel Hidalgo 410-3, Edificio CEMS, Col. Centro, Teziutlán, Puebla, CP 73800",
+  addressNote: "A un lado de Laboratorio Belab, entre JC Bonilla y Nigromante.",
   mapSrc:
-    "https://www.google.com/maps?q=Privada+19+Sur+1915,+Teziutl%C3%A1n,+Puebla&output=embed",
+    "https://www.google.com/maps?cid=13209014199235619821&output=embed",
 };
 
 export type Service = { id: string; title: string; desc: string; img?: string };

@@ -74,7 +74,7 @@ export function SiteFooter() {
         <div className="space-y-2 text-sm">
           <h4 className="font-display text-lg">Contacto</h4>
           <p className="flex gap-2"><Phone className="size-4" /> <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a></p>
-          <p className="flex gap-2"><MapPin className="size-4 shrink-0" /> {SITE.address}</p>
+          <p className="flex gap-2"><MapPin className="size-4 shrink-0" /> <span>{SITE.address}<br />{SITE.addressNote}</span></p>
           <p className="flex gap-2"><MessageCircle className="size-4" /> <a href={SITE.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a></p>
         </div>
         <div className="text-sm">

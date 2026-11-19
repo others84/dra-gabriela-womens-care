@@ -19,7 +19,7 @@ function Aviso() {
     <>
       <PageHero title="Aviso de Privacidad" />
       <section className="mx-auto max-w-3xl px-5 py-14 text-lg">
-        <p>De conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, el consultorio médico de la {SITE.doctor}, ubicado en Privada 19 Sur 1915, Teziutlán, Puebla, utiliza sus datos personales únicamente para la apertura de expedientes clínicos, agenda de citas y seguimiento de tratamientos médicos. Sus datos están protegidos bajo estricta confidencialidad médica.</p>
+        <p>De conformidad con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, el consultorio médico de la {SITE.doctor}, ubicado en {SITE.address}, utiliza sus datos personales únicamente para la apertura de expedientes clínicos, agenda de citas y seguimiento de tratamientos médicos. Sus datos están protegidos bajo estricta confidencialidad médica.</p>
       </section>
     </>
   );
