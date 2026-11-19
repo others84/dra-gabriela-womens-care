@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Baby, HeartPulse, Microscope, Flower2, MessageCircle } from "lucide-react";
+import { Baby, HeartPulse, Microscope, Flower2 } from "lucide-react";
 import inicio from "@/assets/inicio.avif";
 import sobremi from "@/assets/sobremi.avif";
 import { SiteHeader, CtaButton } from "@/components/SiteLayout";
@@ -34,7 +34,6 @@ function Index() {
         <div className="relative mx-auto max-w-6xl px-5 pb-14 pt-36 text-center">
           <h1 className="font-display text-4xl leading-tight md:text-5xl">Atención Ginecológica y Obstétrica Especializada en Teziutlán</h1>
           <p className="mt-4 font-display text-xl opacity-95">Cuidado profesional, cálido y accesible para la salud de la mujer en todas sus etapas.</p>
-          <div className="mt-8"><CtaButton href={SITE.whatsapp}><MessageCircle className="size-5" /> Agendar cita por WhatsApp</CtaButton></div>
           <div className="mt-14 grid gap-8 text-left sm:grid-cols-2 lg:grid-cols-4">
             {FEATURES.map((f) => (
               <div key={f.title} className="flex gap-3">

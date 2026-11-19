@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
-import { Menu, MessageCircle, Phone, MapPin, X } from "lucide-react";
+import { Menu, Phone, MapPin, X } from "lucide-react";
 import { SITE } from "@/lib/site";
 import logo from "@/assets/logo-dra-gabriela-puig.svg";
 
@@ -75,7 +75,6 @@ export function SiteFooter() {
           <h4 className="font-display text-lg">Contacto</h4>
           <p className="flex gap-2"><Phone className="size-4" /> <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a></p>
           <p className="flex gap-2"><MapPin className="size-4 shrink-0" /> <span>{SITE.address}<br />{SITE.addressNote}</span></p>
-          <p className="flex gap-2"><MessageCircle className="size-4" /> <a href={SITE.whatsapp} target="_blank" rel="noreferrer">WhatsApp</a></p>
         </div>
         <div className="text-sm">
           <h4 className="font-display text-lg">Legales</h4>
