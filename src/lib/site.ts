@@ -11,9 +11,9 @@ export const SITE = {
   clinic: "Clínica de la Mujer",
   specialty: "Ginecología y Obstetricia",
   city: "Teziutlán, Puebla",
-  phone: "2223302899",
-  phoneDisplay: "222 330 2899",
-  whatsapp: "https://wa.me/522223302899",
+  phone: "2311381947",
+  phoneDisplay: "231 138 1947",
+  whatsapp: "https://wa.me/522311381947",
   address: "Privada 19 Sur 1915, Centro, Teziutlán, Puebla",
   mapSrc:
     "https://www.google.com/maps?q=Privada+19+Sur+1915,+Teziutl%C3%A1n,+Puebla&output=embed",
@@ -39,5 +39,5 @@ export const FAQS = [
   { q: "¿Atiende urgencias de parto a cualquier hora?", a: "Sí, la atención del parto y las urgencias obstétricas se programan y coordinan mediante comunicación telefónica previa para el internamiento." },
   { q: "¿Qué métodos de planificación familiar maneja en el consultorio?", a: "Se orienta y colocan dispositivos intrauterinos (DIU, SIU), implantes subdérmicos y se brinda asesoría para métodos orales u hormonales." },
   { q: "¿Se aceptan seguros médicos?", a: "[Pendiente: confirmar con la doctora]" },
-  { q: "¿Cómo cancelo o cambio mi cita?", a: `Llámanos o escríbenos por WhatsApp al ${"222 330 2899"} con anticipación.` },
+  { q: "¿Cómo cancelo o cambio mi cita?", a: `Llámanos o escríbenos por WhatsApp al ${SITE.phoneDisplay} con anticipación.` },
 ];

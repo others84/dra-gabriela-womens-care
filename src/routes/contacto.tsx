@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contacto")({
   head: () => ({
     meta: [
       { title: "Contacto y ubicación | Ginecóloga en Teziutlán" },
-      { name: "description", content: "Agenda tu cita: Privada 19 Sur 1915, Centro, Teziutlán, Puebla. Tel. 222 330 2899." },
+      { name: "description", content: "Agenda tu cita: Privada 19 Sur 1915, Centro, Teziutlán, Puebla. Tel. 231 138 1947." },
       { property: "og:title", content: "Contacto | Dra. Gabriela Puig Morales" },
       { property: "og:description", content: "Ubicación, teléfono y WhatsApp para agendar tu cita en Teziutlán." },
     ],
