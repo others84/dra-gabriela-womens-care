@@ -25,10 +25,6 @@ function Contacto() {
           <p className="flex gap-3 text-lg"><Phone className="text-primary" /> <a href={`tel:${SITE.phone}`}>{SITE.phoneDisplay}</a></p>
           <p className="flex gap-3 text-lg"><MapPin className="shrink-0 text-primary" /> <span>{SITE.address}<br /><span className="text-base text-muted-foreground">{SITE.addressNote}</span></span></p>
           <p className="text-muted-foreground">Ubicación accesible para pacientes de zonas rurales y afueras de Teziutlán.</p>
-          <p className="text-muted-foreground">Horarios: [pendiente]</p>
-          <div className="rounded-lg border-2 border-dashed border-border p-6 text-muted-foreground">
-            Formulario de contacto: [pendiente]
-          </div>
         </div>
         <iframe title="Mapa del consultorio" src={SITE.mapSrc} className="h-[420px] w-full rounded-lg border-0" loading="lazy" />
       </section>
